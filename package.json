@@ -1,0 +1,27 @@
+{
+  "name": "visual-regression",
+  "version": "1.0.0",
+  "description": "This is a visual regression framework",
+  "main": "index.js",
+  "bin": {},
+  "scripts": {
+    "bootstrap": "npm install && lerna bootstrap",
+    "clean": "lerna clean && rimraf ./node_modules"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "author": "Amjad Ali - amjadali_bb@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "2.4.1",
+    "jest": "23.2.0",
+    "rimraf": "2.6.1",
+    "shell-escape": "0.2.0",
+    "yargs": "12.0.1"
+  },
+  "devDependencies": {
+    "lerna": "^3.0.3"
+  }
+}

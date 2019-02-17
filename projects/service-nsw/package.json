@@ -1,0 +1,15 @@
+{
+  "name": "service-nsw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "visual-regression": "jest --testMatch *.spec.js --noStackTrace --headless"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  }
+}

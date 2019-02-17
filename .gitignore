@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+.idea
+screenshots
+tmp
+.env
+local.log
+package-lock.json
+**/**/package-lock.json
+bin

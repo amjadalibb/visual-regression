@@ -1,0 +1,3 @@
+visual-regression/results/
+bin/BrowserStackLocal
+.env
